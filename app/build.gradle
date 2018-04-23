@@ -9,7 +9,6 @@ repositories {
 
 android {
     compileSdkVersion 'Google Inc.:Glass Development Kit Preview:19'
-    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.google.android.glass.sample.waveform"
@@ -32,5 +31,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
